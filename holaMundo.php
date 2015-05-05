@@ -6,7 +6,15 @@
 	* // Fecha: 05/05/2015 02:21:16															*
 	****************************************************************************************/
 
+	$conficencial = "Wow such private very confidencial ! ! !";
 	$lenguaje = "PHP";
 	
-	require "view.php";
+// 	Delcarando una funcion
+	function view($lenguaje)
+	{
+		require "view.php";
+	}
+	
+// 	Llamando a una funcion
+	view($lenguaje);
 ?>

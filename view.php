@@ -16,3 +16,4 @@
 	Aprendiendo <strong><?= $lenguaje;?></strong>
 </body>
 </html>
+<?= $confidencial;?>
